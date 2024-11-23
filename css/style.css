@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #24353f;
+  font-family: sans-serif;
+}
+.content {
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.content h1 {
+  color: #17a2b8;
+}
+.content .form-control {
+  background-color: transparent !important;
+  color: #fff !important;
+  border-radius: 0.25rem;
+  height: calc(2.25rem + 2px);
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgb(182, 182, 182) !important;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+}
+.content .Up {
+  color: #17a2b8;
+  border: 1px solid #17a2b8;
+}
+.content .Question,
+.content .Question a {
+  color: #fff;
+}
+.content .Question a {
+  text-decoration: none;
+}
+.content .Question a:hover {
+  text-decoration: underline;
+}
+.second {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.second .container ul li a {
+  padding: 0.5rem 0.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+}
+.second .container {
+  padding: 0 15px;
+}
+
+.home-content .container {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  width: 85%;
+}
+.Welcome {
+  color: #17a2b8;
+}
+.container .row {
+  color: #8e8e8e;
+}

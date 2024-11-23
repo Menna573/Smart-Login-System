@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>Login</title>
+    <!-- Font Icons CSS -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- main -->
+    <main>
+      <div class="container my-5 text-center">
+        <div class="content m-auto p-5 w-75">
+          <h1>Smart Login System</h1>
+          <input id="nameIn" type="text" placeholder="Enter your name" class="form-control my-3" /><input id="emailIn"
+            type="email" placeholder="Enter your email" class="form-control my-3" /><input id="passIn" type="password"
+            placeholder="Enter  password" class="form-control my-3" />
+          <span id="message"></span>
+          <button onclick="getInfo()" class="btn Up w-100 mt-3">Sign Up</button>
+          <p class="Question my-3">
+            You have an account? <a href="SignIn.html">SignIn</a>
+          </p>
+          <span></span>
+        </div>
+      </div>
+    </main>
+    <!-- Vendor JS Files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Main JS File -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>Home</title>
+    <!-- Font Icons CSS -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body onload="atHome()">
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark group second fixed-top">
+      <div class="container">
+        <a class="navbar-brand  nav-logo text-uppercase " href="#">SMART LOGIN</a>
+        <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ">
+              <a onclick="logOut()" class="btn btn-outline-warning me-0">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- main -->
+    <main class="d-flex justify-content-center align-items-center vh-100">
+      <div class="home-content w-75 m-auto">
+        <div class="container text-center ">
+          <div id="Welcome" class="Welcome m-auto p-5"></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Vendor JS Files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Main JS File -->
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
